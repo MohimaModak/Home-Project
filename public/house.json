@@ -1,0 +1,82 @@
+[
+  {
+    "id": 1,
+    "image": "https://images.pexels.com/photos/314937/pexels-photo-314937.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+    "members": "1",
+    "rent": "10k",
+    "location": "northeast",
+    "type": "adult"
+  },
+  {
+    "id": 2,
+    "image": "https://images.pexels.com/photos/8031875/pexels-photo-8031875.jpeg?auto=compress&cs=tinysrgb&w=600&lazy=load",
+    "members": "2",
+    "rent": "20k",
+    "location": "southeast",
+    "type": "adult"
+  },
+  {
+    "id": 3,
+    "image": "https://images.pexels.com/photos/164522/pexels-photo-164522.jpeg?auto=compress&cs=tinysrgb&w=600&lazy=load",
+    "members": "2+",
+    "rent": "30k",
+    "location": "northeast",
+    "type": "family"
+  },
+  {
+    "id": 4,
+    "image": "https://images.pexels.com/photos/4056972/pexels-photo-4056972.jpeg?auto=compress&cs=tinysrgb&w=600&lazy=load",
+    "members": "2",
+    "rent": "20k",
+    "location": "west",
+    "type": "family"
+  },
+  {
+    "id": 5,
+    "image": "https://images.pexels.com/photos/3935346/pexels-photo-3935346.jpeg?auto=compress&cs=tinysrgb&w=600&lazy=load",
+    "members": "4+",
+    "rent": "40k",
+    "location": "southeast",
+    "type": "family"
+  },
+  {
+    "id": 6,
+    "image": "https://images.pexels.com/photos/209315/pexels-photo-209315.jpeg?auto=compress&cs=tinysrgb&w=600&lazy=load",
+    "members": "2+",
+    "rent": "30k",
+    "location": "midwest",
+    "type": "family"
+  },
+  {
+    "id": 7,
+    "image": "https://images.pexels.com/photos/3555615/pexels-photo-3555615.jpeg?auto=compress&cs=tinysrgb&w=600&lazy=load",
+    "members": "1",
+    "rent": "10k",
+    "location": "southwest",
+    "type": "adult"
+  },
+  {
+    "id": 8,
+    "image": "https://images.pexels.com/photos/2360688/pexels-photo-2360688.jpeg?auto=compress&cs=tinysrgb&w=600&lazy=load",
+    "members": "2+",
+    "rent": "30k",
+    "location": "midwest",
+    "type": "family"
+  },
+  {
+    "id": 9,
+    "image": "https://images.pexels.com/photos/3935328/pexels-photo-3935328.jpeg?auto=compress&cs=tinysrgb&w=600&lazy=load",
+    "members": "4",
+    "rent": "40k",
+    "location": "southeast",
+    "type": "family"
+  },
+  {
+    "id": 10,
+    "image": "https://images.pexels.com/photos/2455398/pexels-photo-2455398.jpeg?auto=compress&cs=tinysrgb&w=600&lazy=load",
+    "members": "2+",
+    "rent": "10k",
+    "location": "west",
+    "type": "adult"
+  }
+]

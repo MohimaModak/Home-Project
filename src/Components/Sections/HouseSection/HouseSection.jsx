@@ -13,31 +13,31 @@ const HouseSection = () => {
       .then((data) => setHouse(data));
   }, []);
 
-const handleSelectHouse = (e) => {
+  const handleSelectHouse = (e) => {
     e.preventDefault();
-  
+    setfilteredHouses([]);
     const type = selectedType;
     const rent = selectedRent;
     const members = selectedMembers;
-    console.log("Selected values:", {type, rent, members});
-  
+    console.log("Selected values:", { type, rent, members });
+
     const filteredHouses = house.filter((home) => {
       const typeCondition = !type || home.type === type;
-      const membersCondition = !members || home.members.toString() === members;
-      const rentCondition = !rent || home.rent.toString() === rent;
-  
-      console.log("Conditions:",{ typeCondition, membersCondition, rentCondition});
-  
-      
-      return typeCondition || membersCondition || rentCondition;
+      const membersCondition = !members || home.members === members;
+      const rentCondition = !rent || home.rent === rent;
+
+      console.log("Conditions:", {
+        typeCondition,
+        membersCondition,
+        rentCondition,
+      });
+
+      return typeCondition && membersCondition && rentCondition;
     });
-  
+
     console.log("Filtered Houses:", filteredHouses);
     setfilteredHouses(filteredHouses);
   };
-  
-  
-
 
   return (
     <div>
@@ -56,7 +56,8 @@ const handleSelectHouse = (e) => {
                 onChange={(e) => setselectedType(e.target.value)}
               >
                 <option value="adult">Adult</option>
-                <option value="kids">Family</option>
+                <option value="family">Family</option>
+                <option value="couple">Couple</option>
               </select>
             </div>
             <div className="form-control">
@@ -76,7 +77,7 @@ const handleSelectHouse = (e) => {
                 <option value="2">2</option>
                 <option value="2+">2+</option>
                 <option value="4+">4+</option>
-                <option value="others">More</option>
+                <option value="more">More</option>
               </select>
             </div>
             <div className="form-control">
@@ -90,11 +91,11 @@ const handleSelectHouse = (e) => {
                 value={selectedRent}
                 onChange={(e) => setselectedRent(e.target.value)}
               >
-                <option value="1">10k</option>
-                <option value="2">20k</option>
-                <option value="2+">30k</option>
-                <option value="4+">40k</option>
-                <option value="others">More</option>
+                <option value="10k">10k</option>
+                <option value="20k">20k</option>
+                <option value="30k">30k</option>
+                <option value="40k">40k</option>
+                <option value="others">others</option>
               </select>
             </div>
           </div>
@@ -110,7 +111,11 @@ const handleSelectHouse = (e) => {
       </div>
       <div className="grid-cols-1 grid md:grid-cols-3 lg:grid-cols-4 gap-5 m-5">
         {filteredHouses.length === 0 ? (
-          <p>No matching houses found.</p>
+          <div className="flex justify-centertext-center inset-0">
+            <p className="text-slate-600 text-4xl font-bold m-10">
+              No matching houses found.
+            </p>
+          </div>
         ) : (
           filteredHouses.map((home) => (
             <div key={home.id}>

@@ -1,3 +1,5 @@
+import InnerCards from "../InnerCards/InnerCards";
+import Invetations from "../Invetations/Invetations";
 import Banner from "../Sections/Banner/Banner";
 import HouseSection from "../Sections/HouseSection/HouseSection";
 // import SearchSection from "../Sections/SearchSection/SearchSection";
@@ -8,6 +10,8 @@ const Home = () => {
       <Banner></Banner>
       {/* <SearchSection></SearchSection> */}
       <HouseSection></HouseSection>
+      <Invetations></Invetations>
+      <InnerCards></InnerCards>
     </div>
   );
 };

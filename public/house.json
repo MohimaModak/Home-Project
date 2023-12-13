@@ -94,5 +94,93 @@
     "rent": "10k",
     "location": "west",
     "type": "couple"
+  },
+  {
+    "id": 14,
+    "image": "https://images.pexels.com/photos/1457842/pexels-photo-1457842.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+    "members": "2",
+    "rent": "10k",
+    "location": "west",
+    "type": "couple"
+  },
+  {
+    "id": 15,
+    "image": "https://images.pexels.com/photos/9951999/pexels-photo-9951999.jpeg?auto=compress&cs=tinysrgb&w=600&lazy=load",
+    "members": "2",
+    "rent": "10k",
+    "location": "west",
+    "type": "couple"
+  },
+  {
+    "id": 16,
+    "image": "https://images.pexels.com/photos/1396132/pexels-photo-1396132.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+    "members": "2",
+    "rent": "10k",
+    "location": "west",
+    "type": "couple"
+  },
+  {
+    "id": 17,
+    "image": "https://images.pexels.com/photos/460695/pexels-photo-460695.jpeg?auto=compress&cs=tinysrgb&w=600&lazy=load",
+    "members": "2",
+    "rent": "10k",
+    "location": "west",
+    "type": "couple"
+  },
+  {
+    "id": 18,
+    "image": "https://images.pexels.com/photos/209274/pexels-photo-209274.jpeg?auto=compress&cs=tinysrgb&w=600&lazy=load",
+    "members": "2",
+    "rent": "10k",
+    "location": "west",
+    "type": "couple"
+  },
+  {
+    "id": 19,
+    "image": "https://images.pexels.com/photos/280222/pexels-photo-280222.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+    "members": "2",
+    "rent": "20k",
+    "location": "northeast",
+    "type": "family"
+  },
+  {
+    "id": 20,
+    "image": "https://images.pexels.com/photos/6267583/pexels-photo-6267583.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+    "members": "2",
+    "rent": "20k",
+    "location": "northeast",
+    "type": "family"
+  },
+  {
+    "id": 21,
+    "image": "https://images.pexels.com/photos/4119830/pexels-photo-4119830.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+    "members": "2",
+    "rent": "20k",
+    "location": "northeast",
+    "type": "family"
+  },
+  {
+    "id": 22,
+    "image": "https://images.pexels.com/photos/3935320/pexels-photo-3935320.jpeg?auto=compress&cs=tinysrgb&w=600&lazy=load",
+    "members": "2",
+    "rent": "20k",
+    "location": "northeast",
+    "type": "family"
+  },
+  {
+    "id": 23,
+    "image": "https://images.pexels.com/photos/4469133/pexels-photo-4469133.jpeg?auto=compress&cs=tinysrgb&w=600&lazy=load",
+    "members": "2",
+    "rent": "20k",
+    "location": "northeast",
+    "type": "family"
+  },
+  {
+    "id": 24,
+    "image": "https://images.pexels.com/photos/4469133/pexels-photo-4469133.jpeg?auto=compress&cs=tinysrgb&w=600&lazy=load",
+    "members": "1",
+    "rent": "10k",
+    "location": "northeast",
+    "type": "family"
   }
 ]

@@ -8,7 +8,8 @@ import Root from "./Components/Home/Root/Root.jsx";
 import Home from "./Components/Home/Home.jsx";
 import Flights from "./Components/Flights/Flights.jsx";
 import CarRentals from "./Components/CarRentals/CarRentals.jsx";
-import Login from "./Components/Login/Login.jsx";
+import Contact from "./Components/Contact/Contact.jsx";
+// import Login from "./Components/Login/Login.jsx";
 
 const router = createBrowserRouter([
   {
@@ -24,12 +25,8 @@ const router = createBrowserRouter([
         element: <Flights></Flights>,
       },
       {
-        path: "/carrentals",
-        element: <CarRentals></CarRentals>,
-      },
-      {
-        path: "/login",
-        element: <Login></Login>,
+        path: "/contact",
+        element: <Contact></Contact>,
       },
     ],
   },

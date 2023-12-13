@@ -16,24 +16,16 @@ const Navbar = () => {
           className={`pl-5 ({ isActive, isPending }) =>
         isPending ? "pending" : isActive ? "active" : ""`}
         >
-          Tenant
+          Reviews
         </NavLink>
         <NavLink
-          to="/carrentals"
+          to="/contact"
           className={`pl-5 ({ isActive, isPending }) =>
           isPending ? "pending" : isActive ? "active" : ""`}
         >
-          Identify
+          Contact
         </NavLink>
       </div>
-      <NavLink
-        to="/login"
-        className={({ isActive, isPending }) =>
-          isPending ? "pending" : isActive ? "active" : ""
-        }
-      >
-        Log-in
-      </NavLink>
     </div>
   );
 };

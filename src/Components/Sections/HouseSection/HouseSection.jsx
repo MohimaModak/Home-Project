@@ -41,6 +41,9 @@ const HouseSection = () => {
 
   return (
     <div>
+      <h1 className="text-slate-600 font-bold text-2xl">
+        Search Your Dream Home
+      </h1>
       <div>
         <form onSubmit={handleSelectHouse}>
           <div className="grid grid-cols-3 gap-5 font-bold searchfont text-slate-600 p-5">
@@ -111,26 +114,33 @@ const HouseSection = () => {
       </div>
       <div className="grid-cols-1 grid md:grid-cols-3 lg:grid-cols-4 gap-5 m-5">
         {filteredHouses.length === 0 ? (
-          <div className="flex justify-centertext-center inset-0">
+          <div className="flex justify-center items-center text-center ">
             <p className="text-slate-600 text-4xl font-bold m-10">
               No matching houses found.
             </p>
           </div>
         ) : (
           filteredHouses.map((home) => (
-            <div key={home.id}>
-              <div>
-                <img
-                  src={home.image}
-                  className="h-[200px] rounded-md"
-                  alt={`House ${home.id}`}
-                />
-              </div>
-              <div>
-                <h1>{home.members}</h1>
-                <h1>{home.location}</h1>
-                <h1>{home.type}</h1>
-                <h1>{home.rent}</h1>
+            <div className="flex justify-center items-center">
+              <div key={home.id}>
+                <div className="border text-slate-600 shadow-2xl rounded-md">
+                  <div>
+                    <img
+                      src={home.image}
+                      className="h-[200px] rounded-md"
+                      alt={`House ${home.id}`}
+                    />
+                  </div>
+                  <div className="font-bold p-2">
+                    <h1>Members: {home.members}</h1>
+                    <h1>Location: {home.location}</h1>
+                    <h1>Type: {home.type}</h1>
+                    <h1>Rent: {home.rent}</h1>
+                    <div className="border bg-white p-2 rounded-full m-5">
+                      <button>Book</button>
+                    </div>
+                  </div>
+                </div>
               </div>
             </div>
           ))
